@@ -16,7 +16,7 @@ overflow-x:hidden ;
 .road
 {
 background-image: url(road.jpg);
-width: 900%;
+width: 2000%;
 height: 200px;
 position: absolute;
 bottom: 0;
@@ -61,7 +61,7 @@ display: block;
 }
 .car
 {
-    width: 400px;
+    width: 330px;
     position: absolute;
     transform: translateX(-50%);
 bottom: 100px;
@@ -98,19 +98,19 @@ z-index: 2;
 }
 .wheel img
 {
-    width: 73px;
+    width: 60px;
     animation: wheel 1s linear infinite;
 }
 .Backwheel
 {
-    left: -165px;
-    bottom: 33px;
+    left: -136px;
+    bottom: 32px;
     position: absolute;
 }
 .Frontwheel
 {
     bottom: 33px;
-    left: 80px;
+    left: 66px;
 position: absolute;
 }
 @keyframes wheel {
@@ -135,9 +135,9 @@ position: absolute;
 {
     width: 115px;
     position: absolute;
-    height: 120px;
-    top: 377px;
-    left: 44%;
+    height: 105px;
+    top: 321px;
+    left: 27%;
 }
 .flag img
 {
@@ -163,215 +163,58 @@ background-color: white;
 {
 background-color: rgb(16, 182, 16);
 }
-@media only screen and (max-width:351px)
+ @media only screen and (min-width:440px)
  {
-    .txt
-    {
-        margin: 10px auto;
-        font-size: 25px;
-    }
-    .road
-    {
-        background-image: url(road.jpg);
-        width: 10000%;
-height: 200px;
-position: absolute;
-bottom: 0;
-right: 0;
-left: 0;
-z-index: 1;
-background-repeat: repeat-x;
-display: block;
-    }
-    .car
-    {
-width: 300px;
-    }
-    .car img
-    {
-        width: 100%;
-    }
-    .wheel img
+    .flag
 {
-    width: 55px;
+    left: 35%;
 }
+}
+@media only screen and (min-width:440px)
+ {
+    .flag
+{
+    left: 40%;
+}
+}
+@media only screen and (min-width:990px)
+ {
+    .flag
+{
 
-        .Backwheel
-        {
-            left: -125px;
-            bottom: 33px;
-           
-        }
-        .Frontwheel
-        {
-            bottom: 33px;
-            left: 60px;
-}
-
-.city
-{
-    width: 500%;
-}
-/* .flag
-{
+    left: 42%;
     width: 115px;
     position: absolute;
-    height: 120px;
-    top: 377px;
-    left: 44%;
-} */
+    height: 110px;
+    top: 295px;
+}
+.car{
+    width: 400px;
+}
+.wheel img{
+    width: 80px;
+}
+.Backwheel {
+    left: -172px;
+    bottom: 32px;
+    position: absolute;
+}
+.Frontwheel {
+    bottom: 33px;
+    left: 78px;
+    position: absolute;
+}
  }
- @media only screen and (max-width:376px)
+ @media only screen and (min-width:1500px)
  {
-    .txt
-    {
-        margin: 10px auto;
-        font-size: 25px;
-    }
-    .road
-    {
-        background-image: url(road.jpg);
-        width: 10000%;
-height: 200px;
-position: absolute;
-bottom: 0;
-right: 0;
-left: 0;
-z-index: 1;
-background-repeat: repeat-x;
-display: block;
-    }
-    .car
-    {
-width: 300px;
-    }
-    .car img
-    {
-        width: 100%;
-    }
-    .wheel img
+    .flag
 {
-    width: 55px;
-}
-
-        .Backwheel
-        {
-            left: -125px;
-            bottom: 33px;
-           
-        }
-        .Frontwheel
-        {
-            bottom: 33px;
-            left: 60px;
-}
-
-.city
-{
-    width: 500%;
-}
-}
-@media only screen and (max-width:426px)
- {
-    
-    .txt
-    {
-        margin: 10px auto;
-        font-size: 25px;
-    }
-    .road
-    {
-        background-image: url(road.jpg);
-        width: 10000%;
-height: 200px;
-position: absolute;
-bottom: 0;
-right: 0;
-left: 0;
-z-index: 1;
-background-repeat: repeat-x;
-display: block;
-    }
-    .car
-    {
-width: 355px;
-    }
-    .car img
-    {
-        width: 100%;
-    }
-    .wheel img
-{
-    width: 68px;
-}
-
-        .Backwheel
-        {
-            left: -150px;
-            bottom: 29px;
-           
-        }
-        .Frontwheel
-        {
-            bottom: 29px;
-            left: 69px;
-}
-
-.city
-{
-    width: 500%;
-}
-.flag
-{
+    left: 44%;
     width: 115px;
     position: absolute;
-    height: 120px;
-    top: 377px !important;
-    left: 44%;
-    height: 148px !important;
+    height: 110px;
+    top: 390px;
 }
-}
-
-@media only screen and (max-width:600px)
- {
-    .flag
-    {
-        width: 115px;
-        position: absolute;
-        top: 285px !important;
-        left: 35% !important;
-    
-    }
  }
 
 
-
-@media only screen and (max-width:769px)
- {
-    .road
-    {
-        width: 100000%;
-    }
-    .flag
-    {
-        width: 115px;
-        position: absolute;
-        top: 291px;
-        left: 39%;
-    
-    }
-   
- }
- /* @media only screen and (max-width:1600px)
- {
-    .flag
-    {
-        width: 115px;
-        position: absolute;
-        top: 285px;
-        left: 42%;
-    
-    }
-   
-
- } */
